@@ -13,7 +13,6 @@
   font-size: 1.2rem;
   margin-right: 10px;
 }
-
 input[type="text"] {
   display: inline-block;
   width: 300px;
