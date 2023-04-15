@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>DDOS Attack Panel</title>
+    <title>Marian Attack Panel</title>
     <style>
       body {
         background-color: black;
