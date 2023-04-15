@@ -8,30 +8,37 @@
         font-family: Arial, sans-serif;
       }
       label {
-        font-size: 1.2rem;
-        margin-right: 10px;
-      }
-      input[type="text"] {
-        padding: 8px;
-        border: none;
-        border-radius: 5px;
-        margin-bottom: 10px;
-        font-size: 1.2rem;
-      }
+  display: inline-block;
+  width: 100px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  display: inline-block;
+  width: 300px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
       input[type="submit"] {
-        background-color: red;
-        color: white;
-        padding: 10px;
-        border: none;
-        border-radius: 5px;
-        font-size: 1.2rem;
-        cursor: pointer;
-      }
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 337px;
+}
     </style>
   </head>
   <body>
     <h1 style="text-align:center">DDOS Attack Panel</h1>
-    <form method="post" action="" style="width: 500px; margin: 0 auto;">
+    <form method="post" action="ddos.php" style="width: 500px; margin: 0 auto;">
       <label for="host">Host:</label>
       <input type="text" id="host" name="host"><br><br>
       <label for="port">Port:</label>
